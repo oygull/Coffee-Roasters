@@ -385,6 +385,8 @@ ul{
   }
   .footer__inner{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .footer__logo {
    margin-bottom: 33px;
@@ -530,7 +532,16 @@ ul{
   width: 217px;
   margin: 0 auto;
 }
+.footer__inner{
+  padding: 50px 20px;
+}
 .footer__item{
-  margin-right: 20px;
+  margin-right: 5px;
+}
+.footer__link{
+  font-size: 12px;
+}
+.footer__item:last-child{
+  margin-right: 0;
 }
 }
