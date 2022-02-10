@@ -216,6 +216,10 @@ ul{
   line-height: 26px;
   color: var(--text-color2);
 }
+
+/* Srtucture */
+
+
 .structure {
   padding: 50px 0px;
 }
@@ -472,7 +476,9 @@ ul{
    }
 
    /* Hero */
-
+   .hero__inner{
+     padding: 10px 30px;
+   }
    .hero__desc{
     width: 280px;
   }
@@ -546,5 +552,11 @@ ul{
 }
 .footer__item:last-child{
   margin-right: 0;
+}
+.socials__item:last-child{
+  margin-right: 0;
+}
+.aspects__img{
+  margin: 0px 0px 46px 0px;
 }
 }
